@@ -1,0 +1,22 @@
+body{
+  color:white;
+  background-color:#20B2AA;
+
+  font: normal 16px Arial, Helvetica Neue, sans-serif;
+
+}
+
+h1{
+  background-color:	#008B8B;
+  color:black;
+  font-family: cursive;
+  font-size:45px;
+}
+
+img{
+  background-color:#787878;
+  border-right:5px black solid;
+  border-top:5px black solid;
+  border-bottom:5px black solid;
+  border-left:5px black solid;
+}
