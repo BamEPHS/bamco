@@ -7,10 +7,12 @@ body {
   overflow: hidden;
   background-color: #B8860B;
 }
-
+.dropbtn{
+  font-size: 18px;
+}
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -62,12 +64,10 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .container {
   position: relative;
   width: 25%;
 }
-
 .image {
   display: block;
   width: 100%;
@@ -87,11 +87,9 @@ body {
   background-color: rgba(255,255,255,.6);
   box-shadow: 0 5px 15px rgba(0,0,0,.25);
 }
-
 .container:hover .overlay {
   opacity: 1;
 }
-
 .text {
   color: Black;
   font-size: 25px;
@@ -103,3 +101,27 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #B8860B;
+  color: white;
+  border: 1px solid #B8860B;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
