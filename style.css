@@ -1,3 +1,4 @@
+/*--navbar starts here--*/
 body {
   background-color:white;
   font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +26,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 18px;
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -64,6 +65,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/*--navbar ends--*/
+
+/*--image hoverable animation starts--*/
 .container {
   position: relative;
   width: 25%;
@@ -104,7 +108,9 @@ body {
 .center {
   text-align: center;
 }
+/*--image hoverable animation ends--*/
 
+/*--pagination bar starts--*/
 .pagination {
   display: inline-block;
 }
@@ -125,3 +131,12 @@ body {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+/*--pagination bar ends--*/
+
+/*--footer starts--*/
+
+footer{
+  width: 100%;
+  background-color: #B8860B;
+  padding: 60px 0px;
+}
