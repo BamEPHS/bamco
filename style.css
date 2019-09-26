@@ -9,14 +9,14 @@ body {
   background-color: #B8860B;
 }
 .dropbtn{
-  font-size: 18px;
+  font-size: 22px;
 }
 .navbar a {
   float: left;
   font-size: 18px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
 }
 
@@ -142,4 +142,12 @@ footer{
 }
 p1{
   float:center;
+}
+/*--for panorama image--*/
+#carousel {
+    overflow: auto;
+}
+
+#carousel .slide {
+    display: inline-block;
 }
