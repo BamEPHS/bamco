@@ -9,7 +9,11 @@
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
 }
-
+footer {
+background-color: grey;
+height: 210px;
+width: 100%;
+}
 /*--navbar starts here--*/
 .navbar {
   overflow: hidden;
