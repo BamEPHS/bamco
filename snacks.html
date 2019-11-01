@@ -8,18 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+
 <div class="navbar">
-  <a href="index.html">Home</a>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Menu</button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="snacks.html">Snacks</a>
+  <a href="index.html">BAM</a>
     <a href="drinks.html">Drinks</a>
-  </div>
-  </div> 
-  <a href="#C1">Contact</a>
-  <a href="#C2">Social Media</a>
+    <a href="snacks.html">Snacks</a> 
 </div>
+
 <!--end of navbar-->
 
     <div class="grid-container">
@@ -255,7 +250,7 @@
         </article>
 
         <article class="location-listing">
-              <a class="location-title" href="#">Popcor</a>
+              <a class="location-title" href="#">Popcorn</a>
         
             <div class="location-image">
                 <a href="#">
@@ -265,11 +260,13 @@
         </article>
 
     </div>
+    </div>
 
 <!--end of the image grid-->
 
-
+<center>
 <div class="pagination">
+
   <a href="drinks.html">&laquo;</a>
 
   <a href="Drinks.html">Drinks</a>
@@ -277,21 +274,38 @@
 
   <a href="snacks.html">&raquo;</a>
 </div>
-
+</center>
 <footer>
   <p1 id="C1">Social Media </p1>
   <p1 id="C2">Contact</p1>
+
+
+
 </footer>
-  </body>
 
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+  </body>
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("myDropdown");
