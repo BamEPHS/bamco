@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>BAM COFFEE</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-	<link href="https://drive.google.com/drive/folders/1yTOB3dqjFcpbLNo3aNP8OmpFeVMOVCA1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<div class="navbar">
-  <a href="index.html">BAM</a>
-  <div class="dropdown">
-    <button class="dropbtn">Menu
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="drinks.html">Drinks</a>
-      <a href="snacks.html">Snacks</a>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+
+    <script>
+      $(document).ready(function(){
+        $('#icon').click(function(){
+          $('ul').toggleClass('active');
+        });
+      });
+    </script>
+
+  </head>
+  <body>
+    <nav>
+      <label class="logo"><img src="logo.jpeg" height="69px" height="69px" href="index.html"></label>
+      <ul>
+        <li><a href="#">Home</a></li>
+              <li><a href="driks.html">Drinks</a></li>
+              <li><a href="snacks.html">Snacks</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <label id="icon"><i class="fas fa-bars"></i></label>
+    </nav>
+    <section></section>
+
+
+
+<!--end of navbar-->
+
+
+
+<div class="slide">
+        <img src="bamlounge.JPG" height="800" width="3000"/>
     </div>
-  </div>
-	<a href="#C1">About us</a>
-	<a href="#C2">Contact</a>
-</div>
-<div id="carousel">
-		<div class="slide">
-				<img src="bamlounge.JPG" height="800" width="3000"/>
-		</div>
-</div>
-<footer>
-	<p1 id="C1">Social Media </p1>
-	<p1 id="C2">Contact</p1>
+
+
+
+    <footer>
+  <p1 id="C1">Social Media </p1>
+  <p1 id="C2">Contact</p1>
 </footer>
-</body>
+  </body>
 </html>
