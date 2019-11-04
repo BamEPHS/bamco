@@ -1,44 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Coffee</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://drive.google.com/drive/folders/1yTOB3dqjFcpbLNo3aNP8OmpFeVMOVCA1">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+
+    <script>
+      $(document).ready(function(){
+        $('#icon').click(function(){
+          $('ul').toggleClass('active');
+        });
+      });
+    </script>
+
   </head>
   <body>
-    <div class="navbar">
-      <a href="index.html">BAM</a>
-      <div class="dropdown">
-        <button class="dropbtn">Menu
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="drinks.html">Drinks</a>
-          <a href="snacks.html">Snacks</a>
-        </div>
-      </div>
-      <a href="#C1">About us</a>
-      <a href="#C2">Contact</a>
+    <nav>
+      <label class="logo"><img src="logo.jpeg" height="69px" height="69px" href="index.html" alt="logo"></label>
+      <ul>
+        <li><a href="#">Home</a></li>
+              <li><a href="drinks.html">Drinks</a></li>
+              <li><a href="snacks.html">Snacks</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <label id="icon"><i class="fas fa-bars"></i></label>
+    </nav>
+
+<!--end of navbar-->
+
+     <div class="grid-container">
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Bai Brasilia Blueberry</a>
+
+            <div class="location-image7">
+                <a href="#">
+                        <img src="pictures/bai_brasilia_blueberry.jpg" height="400px" width="100%" style="padding-top: 5px; padding-bottom: 10px;">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Bai Kula Watermelon</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/bai_watermelon.jpg" height="400px" width="100%" style="padding-top: 5px; padding-bottom: 10px;" >
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Bai Ipanema Pomegranate</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/bai_pomegranate.jpg" height="400px" width="100%" style="padding-top: 5px; padding-bottom: 10px;">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Bai Costa Rica Clementine</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/bai_clementine.jpg" height="400px" width="100%" style="padding-top: 5px; padding-bottom: 10px;" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Bai Malawi Mango</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/bai_malawimango.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Coke Cherry</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/coke_cherry.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Coke</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/coke.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Coke Orange Vanilla</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/coke_orange_vanilla.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Hot Chocolate</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/hotcoco.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Gatorade Orange</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/gatorade_orange.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Gatorade Cherry</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/gatorade_white.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Gatorade Lemon-Lime</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/gatorade_yellow.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Powerde Mix Berry</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/powerade_blue.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Powerade Friut Punch</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/powerade_red.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Powerde Grape</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/powerade_grape.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Ice Citrus</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/ice_citrus.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Ice Fruit</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/ice_fruit.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+        <article class="location-listing">
+            <a class="location-title" href="#">Ice Berry</a>
+        
+            <div class="location-image7">
+                <a href="#">
+                    <img src="pictures/ice_fruits.jpg" height="400px" width="100%" style="padding-top: 10px; padding-bottom: 20px" alt="">
+                </a>
+            </div>
+        </article>
+
+          
+        
+
+      
     </div>
-    <div class="container">
-  <img src="cupofcoffee.jpg" alt="coffee" class="image">
-  <div class="overlay">
-    <div class="text"><strong>Cold Brew</strong></div>
-  </div>
-</div>
-<div class="center">
-  <div class="pagination">
-  <a href="#">&laquo;</a>
-  <a href="#" class="active"><strong>Coffee</strong></a>
-  <a href="snacks.html"><strong>Snacks</strong></a>
+
+<!--end of the image grid-->
+
+<center>
+<div class="pagination">
+  <a href="drinks.html">&laquo;</a>
+
+  <a href="Drinks.html">Drinks</a>
+  <a class="active" href="snacks.html">Snacks</a>
+
   <a href="snacks.html">&raquo;</a>
-  </div>
 </div>
+
+
+</center>
 <footer>
   <p1 id="C1">Social Media </p1>
-	<p1 id="C2">Contact</p1>
+  <p1 id="C2">Contact</p1>
 </footer>
   </body>
+
+
+
+
+
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
 </html>
+
